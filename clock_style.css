@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clock{
+    width: 500px;
+    height: 500px;
+    background: url("img/time.png");
+    background-size: 100% 100%;
+    border: 1px solid;
+    position: relative;
+}
+.second{
+   width: 30px;
+   height: 200px;
+   background: url(img/pointer.png) 6px 0px;
+   background-size: 215% 100%;
+   position: absolute;
+   left: 238px;
+   top: 108px;
+   /* transform: rotate(23deg);
+   transform-origin: 15px 146px; */
+   /* opacity: 0.2; */
+}
+.minute{
+   width: 30px;
+   height: 160px;
+   background: url(img/pointer.png) 50px 31px;
+   background-size: 218% 105%;
+   position: absolute;
+   left: 236px;
+   top: 100px;
+   /* transform: rotate(23deg);
+   transform-origin: 16px 154px; */
+   /* opacity: 0.2; */
+}
+.hour{
+   width: 30px;
+   height: 160px;
+   background: url(img/pointer.png) 94px 31px;
+   background-size: 220% 105%;
+   position: absolute;
+   left: 237px;
+   top: 101px;
+   /* transform: rotate(23deg);
+   transform-origin: 15px 154px; */
+   /* opacity: 0.2; */
+}
